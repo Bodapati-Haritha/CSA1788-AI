@@ -1,0 +1,7 @@
+print_list([]):-nl. %nl = newline
+print_list([H|T]):-write(H),write(' '),print_list(T).
+INPUT:
+?- print_list([a,b,c]).
+OUTPUT:
+a b c 
+true.
