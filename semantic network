@@ -1,0 +1,8 @@
+import networkx as nx
+semantic_network = nx.Graph()
+semantic_network.add_node("dog")
+semantic_network.add_node("animal")
+semantic_network.add_node("mammal")
+semantic_network.add_edge("dog", "animal")
+semantic_network.add_edge("dog", "mammal")
+semantic_network.add_edge("animal", "mammal")
